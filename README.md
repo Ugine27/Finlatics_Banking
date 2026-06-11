@@ -46,6 +46,20 @@ Developed a machine learning model to predict whether a customer is likely to su
 - Seaborn
 - Scikit-learn
 
+## Results
+
+On the current dataset, the professional pipeline selected Logistic Regression as the best model by F1 score.
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression | 0.8592 | 0.4457 | 0.8300 | 0.5800 | 0.9211 |
+| Decision Tree | 0.8816 | 0.4944 | 0.5005 | 0.4974 | 0.7163 |
+| Random Forest | 0.9033 | 0.7081 | 0.2956 | 0.4171 | 0.9264 |
+
+## Resume Description
+
+Built an end-to-end machine learning pipeline to predict term deposit subscription from banking marketing campaign data. Performed EDA, feature preprocessing, classification modeling, and model evaluation using Python, pandas, seaborn, and scikit-learn.
+
 ## Applications
 
 - Banking Analytics
